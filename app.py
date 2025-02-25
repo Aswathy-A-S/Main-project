@@ -7,7 +7,7 @@ from PIL import Image as PILImage
 import io
 
 # Constants
-class_ELA = ['Real', 'Tampered']
+class_ELA = ['Real', 'Tampered'] 
 
 # Function to perform ELA detection
 def detect_ELA(img_name):
