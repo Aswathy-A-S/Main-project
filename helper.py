@@ -3,7 +3,7 @@ import cv2
 from PIL import Image, ImageChops, ImageEnhance
 import numpy as np
 
-def convert_to_ela_image(path, quality):
+def convert_to_ela_image(path, quality): 
     temp_filename = 'temp_file_name.jpg'
     ela_filename = 'temp_ela.png'
     image = Image.open(path).convert('RGB')
