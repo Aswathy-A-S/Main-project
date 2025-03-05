@@ -6,7 +6,7 @@ from helper import prepare_image_for_ela
 from PIL import Image as PILImage
 import io
 
-# Constants
+# Constants 
 class_ELA = ['Real', 'Tampered'] 
 
 # Function to perform ELA detection
