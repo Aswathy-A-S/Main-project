@@ -6,7 +6,7 @@ import urllib
 from exif import Image
 from urllib.request import urlopen
 import json
-from geopy.geocoders import Nominatim
+from geopy.geocoders import Nominatim 
 
 
 
