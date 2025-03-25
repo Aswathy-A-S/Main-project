@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from helper import prepare_image_for_ela
 from PIL import Image as PILImage
 import io
-
+ 
 # Constants 
 class_ELA = ['Real', 'Tampered'] 
 
