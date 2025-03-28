@@ -7,7 +7,7 @@ from exif import Image
 from urllib.request import urlopen
 import json
 from geopy.geocoders import Nominatim 
-
+ 
 
 
 '''0:	'Clear sky' 
