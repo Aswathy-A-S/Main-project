@@ -6,7 +6,7 @@ import numpy as np
 def convert_to_ela_image(path, quality): 
     temp_filename = 'temp_file_name.jpg'
     ela_filename = 'temp_ela.png'
-    image = Image.open(path).convert('RGB')
+    image = Image.open(path).convert('RGB') 
     image.save(temp_filename, 'JPEG', quality = quality)
     temp_image = Image.open(temp_filename)
 
